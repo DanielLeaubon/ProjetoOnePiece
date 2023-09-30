@@ -4,7 +4,7 @@
         width: 100vw;
     }
 
-    main .presonagem .imagem {
+    main .personagem .imagem {
         height: 85%;
     }
     .conteudo{
@@ -24,14 +24,15 @@
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 30px;
+        padding: 40px;
     }
     .botoes .botao img {
-        max-width: 60px;
+        max-width: 45px;
+        border: 20px;
     }
 }
 @media(max-width: 425px) {
-    main .presonagem .imagem {
+    main .personagem .imagem {
         height: auto;
     }
     .conteudo .logo{
@@ -50,5 +51,7 @@
     }
     .botoes .botao img {
         max-width: 50px;
+        
     }
+    
 }   
